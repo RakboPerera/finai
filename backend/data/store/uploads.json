@@ -29,5 +29,36 @@
     "uploaded_at": "2026-03-15T16:25:19.003041",
     "_id": 1,
     "_created_at": "2026-03-15T16:25:19.004166"
+  },
+  {
+    "upload_id": "fedf3b65",
+    "filename": "SAP_GL_JKH_Q3_2024.csv",
+    "sheets": [
+      "Sheet1"
+    ],
+    "total_rows": 40,
+    "columns": {
+      "Sheet1": [
+        "Posting_Date",
+        "Document_No",
+        "GL_Account",
+        "GL_Description",
+        "Cost_Center",
+        "Cost_Center_Name",
+        "Profit_Center",
+        "Debit_LKR",
+        "Credit_LKR",
+        "Balance_LKR",
+        "Vendor_Customer",
+        "Transaction_Type",
+        "Reference",
+        "Fiscal_Year",
+        "Period"
+      ]
+    },
+    "status": "processed",
+    "uploaded_at": "2026-03-15T17:35:26.042397",
+    "_id": 2,
+    "_created_at": "2026-03-15T17:35:26.043358"
   }
 ]
