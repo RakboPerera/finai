@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://finai-backend.onrender.com/api/:path*"
+      "destination": "https://finai-fl6c.onrender.com/api/:path*"
     }
   ]
 }
