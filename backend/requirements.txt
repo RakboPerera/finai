@@ -1,0 +1,10 @@
+fastapi 
+uvicorn[standard] 
+python-multipart 
+anthropic 
+duckdb 
+pandas 
+openpyxl 
+python-dotenv 
+pydantic 
+aiofiles

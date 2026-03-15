@@ -1,0 +1,90 @@
+{
+  "filename": "SAP_Financial_Data_Q1_2025.csv",
+  "sheets": {
+    "Sheet1": {
+      "rows": 30,
+      "columns": [
+        "Date",
+        "Account",
+        "Category",
+        "Description",
+        "Debit",
+        "Credit",
+        "Balance",
+        "Cost_Center",
+        "GL_Code"
+      ],
+      "dtypes": {
+        "Date": "str",
+        "Account": "int64",
+        "Category": "str",
+        "Description": "str",
+        "Debit": "float64",
+        "Credit": "float64",
+        "Balance": "int64",
+        "Cost_Center": "str",
+        "GL_Code": "int64"
+      },
+      "numeric_columns": [
+        "Account",
+        "Debit",
+        "Credit",
+        "Balance",
+        "GL_Code"
+      ],
+      "date_columns": [],
+      "numeric_stats": {
+        "Account": {
+          "count": 30.0,
+          "mean": 2002.3333333333333,
+          "std": 910.2876518965871,
+          "min": 1001.0,
+          "25%": 1002.0,
+          "50%": 2001.0,
+          "75%": 3002.0,
+          "max": 3007.0
+        },
+        "Debit": {
+          "count": 18.0,
+          "mean": 287833.3333333333,
+          "std": 222047.75585975405,
+          "min": 35000.0,
+          "25%": 128250.0,
+          "50%": 182500.0,
+          "75%": 487500.0,
+          "max": 650000.0
+        },
+        "Credit": {
+          "count": 12.0,
+          "mean": 746666.6666666666,
+          "std": 494351.4269558988,
+          "min": 55000.0,
+          "25%": 310000.0,
+          "50%": 825000.0,
+          "75%": 1197500.0,
+          "max": 1420000.0
+        },
+        "Balance": {
+          "count": 30.0,
+          "mean": 2306900.0,
+          "std": 1121365.711363019,
+          "min": 260000.0,
+          "25%": 1197500.0,
+          "50%": 2419500.0,
+          "75%": 3232000.0,
+          "max": 4229000.0
+        },
+        "GL_Code": {
+          "count": 30.0,
+          "mean": 5196.666666666667,
+          "std": 1019.9673197379088,
+          "min": 4000.0,
+          "25%": 4100.0,
+          "50%": 5050.0,
+          "75%": 6200.0,
+          "max": 6700.0
+        }
+      }
+    }
+  }
+}

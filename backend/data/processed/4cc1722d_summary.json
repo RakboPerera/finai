@@ -1,0 +1,68 @@
+{
+  "filename": "SAP_Financial_Data_Q1_2025.csv",
+  "sheets": {
+    "Sheet1": {
+      "rows": 30,
+      "columns": [
+        "Date",
+        "Account",
+        "Category",
+        "Description",
+        "Debit",
+        "Credit",
+        "Balance",
+        "Cost_Center",
+        "GL_Code"
+      ],
+      "dtypes": {
+        "Date": "str",
+        "Account": "int64",
+        "Category": "str",
+        "Description": "str",
+        "Debit": "str",
+        "Credit": "str",
+        "Balance": "int64",
+        "Cost_Center": "str",
+        "GL_Code": "int64"
+      },
+      "numeric_columns": [
+        "Account",
+        "Balance",
+        "GL_Code"
+      ],
+      "date_columns": [],
+      "numeric_stats": {
+        "Account": {
+          "count": 30.0,
+          "mean": 2002.3333333333333,
+          "std": 910.2876518965871,
+          "min": 1001.0,
+          "25%": 1002.0,
+          "50%": 2001.0,
+          "75%": 3002.0,
+          "max": 3007.0
+        },
+        "Balance": {
+          "count": 30.0,
+          "mean": 2306900.0,
+          "std": 1121365.711363019,
+          "min": 260000.0,
+          "25%": 1197500.0,
+          "50%": 2419500.0,
+          "75%": 3232000.0,
+          "max": 4229000.0
+        },
+        "GL_Code": {
+          "count": 30.0,
+          "mean": 5196.666666666667,
+          "std": 1019.9673197379088,
+          "min": 4000.0,
+          "25%": 4100.0,
+          "50%": 5050.0,
+          "75%": 6200.0,
+          "max": 6700.0
+        }
+      }
+    }
+  }
+}

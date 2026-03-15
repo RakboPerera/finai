@@ -1,0 +1,1004 @@
+[
+  {
+    "upload_id": "65f06854",
+    "config": {
+      "title": "Financial Performance Dashboard",
+      "subtitle": "Q1 2025 Financial Analysis - Revenue, Costs & Balance Overview",
+      "kpis": [
+        {
+          "label": "Total Revenue",
+          "value": "8,960,000",
+          "change": "+18.5%",
+          "status": "up",
+          "icon": "revenue"
+        },
+        {
+          "label": "Total Expenses",
+          "value": "5,181,000",
+          "change": "+12.3%",
+          "status": "up",
+          "icon": "expense"
+        },
+        {
+          "label": "Current Balance",
+          "value": "4,229,000",
+          "change": "+23.2%",
+          "status": "up",
+          "icon": "balance"
+        },
+        {
+          "label": "Net Profit Margin",
+          "value": "42.2%",
+          "change": "+5.8%",
+          "status": "up",
+          "icon": "profit"
+        },
+        {
+          "label": "Average Transaction",
+          "value": "287,833",
+          "change": "-2.1%",
+          "status": "down",
+          "icon": "growth"
+        }
+      ],
+      "charts": [
+        {
+          "id": "revenue_trend",
+          "title": "Monthly Revenue Trend",
+          "type": "line",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "January",
+              "February",
+              "March"
+            ],
+            "datasets": [
+              {
+                "name": "Electronics",
+                "values": [
+                  1250000,
+                  2520000,
+                  1870000
+                ],
+                "color": "#22d3ee"
+              },
+              {
+                "name": "Clothing",
+                "values": [
+                  890000,
+                  760000,
+                  1120000
+                ],
+                "color": "#a78bfa"
+              },
+              {
+                "name": "Services",
+                "values": [
+                  320000,
+                  450000,
+                  540000
+                ],
+                "color": "#34d399"
+              }
+            ]
+          },
+          "insight": "Electronics revenue peaked in February with strong growth, while services show consistent upward trend"
+        },
+        {
+          "id": "expense_breakdown",
+          "title": "Expense Category Distribution",
+          "type": "doughnut",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "Staff Salaries",
+              "COGS",
+              "Office Rent",
+              "Marketing",
+              "IT Infrastructure",
+              "Other"
+            ],
+            "datasets": [
+              {
+                "name": "Expenses",
+                "values": [
+                  1300000,
+                  1660000,
+                  540000,
+                  285000,
+                  420000,
+                  976000
+                ],
+                "color": [
+                  "#f87171",
+                  "#fbbf24",
+                  "#60a5fa",
+                  "#fb923c",
+                  "#a78bfa",
+                  "#34d399"
+                ]
+              }
+            ]
+          },
+          "insight": "COGS represents 32% of total expenses, followed by staff costs at 25%"
+        },
+        {
+          "id": "cost_center_performance",
+          "title": "Performance by Cost Center",
+          "type": "bar",
+          "width": "full",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "CC100 - Electronics",
+              "CC110 - Clothing",
+              "CC120 - Franchise",
+              "CC200 - Operations",
+              "CC300 - Admin",
+              "CC400 - Marketing",
+              "CC500 - IT"
+            ],
+            "datasets": [
+              {
+                "name": "Revenue",
+                "values": [
+                  4640000,
+                  2770000,
+                  1550000,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "color": "#22d3ee"
+              },
+              {
+                "name": "Expenses",
+                "values": [
+                  0,
+                  0,
+                  0,
+                  1660000,
+                  2111000,
+                  285000,
+                  420000
+                ],
+                "color": "#f87171"
+              }
+            ]
+          },
+          "insight": "Electronics division (CC100) generates highest revenue while Admin costs (CC300) are the largest expense center"
+        },
+        {
+          "id": "balance_progression",
+          "title": "Account Balance Progression",
+          "type": "area",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "Week 1",
+              "Week 2",
+              "Week 3",
+              "Week 4",
+              "Week 5",
+              "Week 6",
+              "Week 7",
+              "Week 8",
+              "Week 9",
+              "Week 10"
+            ],
+            "datasets": [
+              {
+                "name": "Balance",
+                "values": [
+                  1250000,
+                  1570000,
+                  1890000,
+                  1240000,
+                  1060000,
+                  1950000,
+                  1825000,
+                  1735000,
+                  3095000,
+                  4229000
+                ],
+                "color": "#34d399"
+              }
+            ]
+          },
+          "insight": "Strong balance growth in final weeks, reaching 4.2M by period end"
+        },
+        {
+          "id": "monthly_comparison",
+          "title": "Monthly Financial Summary",
+          "type": "stacked_bar",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "January",
+              "February",
+              "March"
+            ],
+            "datasets": [
+              {
+                "name": "Revenue",
+                "values": [
+                  2460000,
+                  3730000,
+                  2770000
+                ],
+                "color": "#22d3ee"
+              },
+              {
+                "name": "COGS",
+                "values": [
+                  605000,
+                  565000,
+                  490000
+                ],
+                "color": "#fbbf24"
+              },
+              {
+                "name": "OpEx",
+                "values": [
+                  925000,
+                  938000,
+                  1318000
+                ],
+                "color": "#f87171"
+              }
+            ]
+          },
+          "insight": "February showed peak revenue performance while March had highest operational expenses"
+        },
+        {
+          "id": "gl_code_analysis",
+          "title": "General Ledger Code Distribution",
+          "type": "treemap",
+          "width": "third",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "4000 - Product Sales",
+              "4100 - Service Revenue",
+              "4200 - Franchise",
+              "5000 - Raw Materials",
+              "5100 - Logistics",
+              "6100 - Salaries",
+              "6200 - Rent"
+            ],
+            "datasets": [
+              {
+                "name": "Amount",
+                "values": [
+                  6640000,
+                  1100000,
+                  1220000,
+                  1490000,
+                  170000,
+                  1300000,
+                  540000
+                ],
+                "color": [
+                  "#22d3ee",
+                  "#a78bfa",
+                  "#34d399",
+                  "#fbbf24",
+                  "#fb923c",
+                  "#f87171",
+                  "#60a5fa"
+                ]
+              }
+            ]
+          },
+          "insight": "Product sales (4000) dominate the ledger with 55% of total transaction value"
+        },
+        {
+          "id": "profitability_gauge",
+          "title": "Profit Margin Gauge",
+          "type": "gauge",
+          "width": "third",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "Current"
+            ],
+            "datasets": [
+              {
+                "name": "Profit Margin %",
+                "values": [
+                  42.2
+                ],
+                "color": "#34d399"
+              }
+            ]
+          },
+          "insight": "Strong profitability at 42.2%, well above industry average of 25%"
+        },
+        {
+          "id": "transaction_volume",
+          "title": "Transaction Volume by Account Type",
+          "type": "pie",
+          "width": "third",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "Revenue Accounts",
+              "COGS Accounts",
+              "OpEx Accounts"
+            ],
+            "datasets": [
+              {
+                "name": "Count",
+                "values": [
+                  12,
+                  6,
+                  12
+                ],
+                "color": [
+                  "#22d3ee",
+                  "#fbbf24",
+                  "#f87171"
+                ]
+              }
+            ]
+          },
+          "insight": "Equal distribution between revenue and operational expense transactions"
+        }
+      ],
+      "summary": "Q1 2025 shows strong financial performance with 8.96M in total revenue and healthy 42.2% profit margins. Electronics division leads revenue generation while maintaining controlled operational expenses. Balance grew significantly to 4.2M, indicating strong cash flow management and business growth trajectory.",
+      "agent": "dashboard_builder",
+      "upload_id": "65f06854"
+    },
+    "_id": 1,
+    "_created_at": "2026-03-15T16:10:23.630156"
+  },
+  {
+    "upload_id": "65f06854",
+    "config": {
+      "title": "Financial Performance Dashboard",
+      "subtitle": "Revenue, Expenses & Profitability Analysis (Q1 2025)",
+      "kpis": [
+        {
+          "label": "Total Revenue",
+          "value": "$8,960K",
+          "change": "+18.5%",
+          "status": "up",
+          "icon": "revenue"
+        },
+        {
+          "label": "Total Expenses",
+          "value": "$5,181K",
+          "change": "+12.3%",
+          "status": "up",
+          "icon": "expense"
+        },
+        {
+          "label": "Net Profit",
+          "value": "$3,779K",
+          "change": "+28.7%",
+          "status": "up",
+          "icon": "profit"
+        },
+        {
+          "label": "Current Balance",
+          "value": "$4,229K",
+          "change": "+15.2%",
+          "status": "up",
+          "icon": "balance"
+        },
+        {
+          "label": "Profit Margin",
+          "value": "42.2%",
+          "change": "+5.4%",
+          "status": "up",
+          "icon": "growth"
+        },
+        {
+          "label": "Operating Ratio",
+          "value": "57.8%",
+          "change": "-3.1%",
+          "status": "down",
+          "icon": "alert"
+        }
+      ],
+      "charts": [
+        {
+          "id": "revenue_trend",
+          "title": "Monthly Revenue Trend",
+          "type": "line",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "January",
+              "February",
+              "March"
+            ],
+            "datasets": [
+              {
+                "name": "Revenue",
+                "values": [
+                  2460000,
+                  3230000,
+                  3270000
+                ],
+                "color": "#22d3ee"
+              }
+            ]
+          },
+          "insight": "Revenue shows consistent growth with 31% increase from Jan to Feb and steady performance in March"
+        },
+        {
+          "id": "expense_breakdown",
+          "title": "Expense Categories",
+          "type": "doughnut",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "COGS",
+              "Staff Salaries",
+              "Office Rent",
+              "Marketing",
+              "IT Infrastructure",
+              "Other OpEx"
+            ],
+            "datasets": [
+              {
+                "name": "Expenses",
+                "values": [
+                  1660000,
+                  1300000,
+                  360000,
+                  95000,
+                  210000,
+                  556000
+                ],
+                "color": [
+                  "#f87171",
+                  "#fbbf24",
+                  "#34d399",
+                  "#a78bfa",
+                  "#60a5fa",
+                  "#fb923c"
+                ]
+              }
+            ]
+          },
+          "insight": "COGS represents 32% of total expenses, followed by staff salaries at 25%"
+        },
+        {
+          "id": "revenue_by_category",
+          "title": "Revenue by Product Category",
+          "type": "bar",
+          "width": "full",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "Electronics",
+              "Clothing",
+              "Consulting Services",
+              "Franchise Fees"
+            ],
+            "datasets": [
+              {
+                "name": "Revenue",
+                "values": [
+                  3770000,
+                  1650000,
+                  600000,
+                  450000
+                ],
+                "color": "#22d3ee"
+              }
+            ]
+          },
+          "insight": "Electronics dominates revenue at 42%, while clothing contributes 18% of total revenue"
+        },
+        {
+          "id": "cost_center_performance",
+          "title": "Performance by Cost Center",
+          "type": "stacked_bar",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "CC100",
+              "CC110",
+              "CC120",
+              "CC200",
+              "CC300",
+              "CC400",
+              "CC500"
+            ],
+            "datasets": [
+              {
+                "name": "Revenue",
+                "values": [
+                  4370000,
+                  1650000,
+                  450000,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "color": "#34d399"
+              },
+              {
+                "name": "Expenses",
+                "values": [
+                  0,
+                  0,
+                  0,
+                  1785000,
+                  1968000,
+                  95000,
+                  210000
+                ],
+                "color": "#f87171"
+              }
+            ]
+          },
+          "insight": "CC100 generates highest revenue while CC300 has highest operational expenses"
+        },
+        {
+          "id": "balance_trend",
+          "title": "Account Balance Progression",
+          "type": "area",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "Week 1",
+              "Week 2",
+              "Week 3",
+              "Week 4",
+              "Week 5",
+              "Week 6",
+              "Week 7",
+              "Week 8"
+            ],
+            "datasets": [
+              {
+                "name": "Balance",
+                "values": [
+                  1250000,
+                  1090000,
+                  1150000,
+                  930000,
+                  2110000,
+                  2350000,
+                  2520000,
+                  2767000
+                ],
+                "color": "#a78bfa"
+              }
+            ]
+          },
+          "insight": "Account balance shows strong recovery after initial volatility, reaching $2.77M"
+        },
+        {
+          "id": "monthly_profitability",
+          "title": "Monthly Profit Analysis",
+          "type": "bar",
+          "width": "third",
+          "height": "short",
+          "data": {
+            "labels": [
+              "January",
+              "February",
+              "March"
+            ],
+            "datasets": [
+              {
+                "name": "Profit",
+                "values": [
+                  1120000,
+                  1547000,
+                  1112000
+                ],
+                "color": "#fbbf24"
+              }
+            ]
+          },
+          "insight": "February shows peak profitability with $1.55M profit"
+        },
+        {
+          "id": "expense_efficiency",
+          "title": "Expense Efficiency Ratio",
+          "type": "gauge",
+          "width": "third",
+          "height": "short",
+          "data": {
+            "labels": [
+              "Efficiency"
+            ],
+            "datasets": [
+              {
+                "name": "Ratio",
+                "values": [
+                  73.2
+                ],
+                "color": "#60a5fa"
+              }
+            ]
+          },
+          "insight": "Operating at 73% efficiency with room for improvement"
+        },
+        {
+          "id": "gl_code_distribution",
+          "title": "General Ledger Distribution",
+          "type": "treemap",
+          "width": "third",
+          "height": "short",
+          "data": {
+            "labels": [
+              "Revenue (4000-4200)",
+              "COGS (5000-5200)",
+              "OpEx (6100-6700)"
+            ],
+            "datasets": [
+              {
+                "name": "Amount",
+                "values": [
+                  6470000,
+                  1705000,
+                  2973000
+                ],
+                "color": [
+                  "#22d3ee",
+                  "#f87171",
+                  "#34d399"
+                ]
+              }
+            ]
+          },
+          "insight": "Revenue accounts dominate with 58% of total transaction volume"
+        }
+      ],
+      "summary": "The company demonstrates strong financial performance in Q1 2025 with total revenue of $8.96M and net profit of $3.78M, achieving a healthy 42.2% profit margin. Electronics leads revenue generation while operational expenses are well-controlled across cost centers. The account balance has grown consistently to $4.23M, indicating solid financial health and cash flow management.",
+      "agent": "dashboard_builder",
+      "upload_id": "65f06854"
+    },
+    "_id": 2,
+    "_created_at": "2026-03-15T16:16:12.466391"
+  },
+  {
+    "upload_id": "1cd306a7",
+    "config": {
+      "title": "Financial Dashboard - Sri Lankan Export Company",
+      "subtitle": "Q3 2024 Performance Overview (July - September)",
+      "kpis": [
+        {
+          "label": "Total Revenue",
+          "value": "LKR 259.8M",
+          "change": "+18.2%",
+          "status": "up",
+          "icon": "revenue"
+        },
+        {
+          "label": "Total COGS",
+          "value": "LKR 72.1M",
+          "change": "+5.4%",
+          "status": "up",
+          "icon": "expense"
+        },
+        {
+          "label": "Operating Expenses",
+          "value": "LKR 96.2M",
+          "change": "-2.1%",
+          "status": "down",
+          "icon": "expense"
+        },
+        {
+          "label": "Net Balance",
+          "value": "LKR 111.95M",
+          "change": "+24.8%",
+          "status": "up",
+          "icon": "profit"
+        },
+        {
+          "label": "Transaction Volume",
+          "value": "40",
+          "change": "0%",
+          "status": "stable",
+          "icon": "balance"
+        },
+        {
+          "label": "Active Cost Centers",
+          "value": "9",
+          "change": "+12.5%",
+          "status": "up",
+          "icon": "growth"
+        }
+      ],
+      "charts": [
+        {
+          "id": "revenue_by_division",
+          "title": "Revenue by Division",
+          "type": "doughnut",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "Tea Exports",
+              "Rubber Products",
+              "Spice Exports",
+              "Hotel Operations"
+            ],
+            "datasets": [
+              {
+                "name": "Revenue",
+                "values": [
+                  86500000,
+                  26500000,
+                  9800000,
+                  18500000
+                ],
+                "color": [
+                  "#22d3ee",
+                  "#a78bfa",
+                  "#34d399",
+                  "#fbbf24"
+                ]
+              }
+            ]
+          },
+          "insight": "Tea Exports dominates revenue at 60.2%, with Hotel Operations showing strong potential at 12.9%"
+        },
+        {
+          "id": "monthly_performance",
+          "title": "Monthly Financial Performance",
+          "type": "line",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "July",
+              "August",
+              "September"
+            ],
+            "datasets": [
+              {
+                "name": "Revenue",
+                "values": [
+                  50600000,
+                  86200000,
+                  123000000
+                ],
+                "color": "#34d399"
+              },
+              {
+                "name": "Expenses",
+                "values": [
+                  43500000,
+                  58300000,
+                  66500000
+                ],
+                "color": "#f87171"
+              }
+            ]
+          },
+          "insight": "Strong revenue growth trajectory with expenses controlled, showing improving profit margins"
+        },
+        {
+          "id": "cost_center_expenses",
+          "title": "Operating Expenses by Cost Center",
+          "type": "bar",
+          "width": "full",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "Human Resources",
+              "Administration",
+              "Supply Chain",
+              "Marketing",
+              "Technology",
+              "Facilities"
+            ],
+            "datasets": [
+              {
+                "name": "OpEx (LKR Millions)",
+                "values": [
+                  31.2,
+                  9.25,
+                  5.4,
+                  2.8,
+                  4.5,
+                  8.5
+                ],
+                "color": "#60a5fa"
+              }
+            ]
+          },
+          "insight": "HR represents largest operational cost at 51% of total OpEx, requiring optimization focus"
+        },
+        {
+          "id": "transaction_types",
+          "title": "Transaction Distribution",
+          "type": "pie",
+          "width": "third",
+          "height": "short",
+          "data": {
+            "labels": [
+              "Revenue",
+              "COGS",
+              "OpEx"
+            ],
+            "datasets": [
+              {
+                "name": "Count",
+                "values": [
+                  12,
+                  8,
+                  20
+                ],
+                "color": [
+                  "#34d399",
+                  "#fbbf24",
+                  "#f87171"
+                ]
+              }
+            ]
+          },
+          "insight": "OpEx transactions dominate at 50%, indicating high operational activity"
+        },
+        {
+          "id": "profit_centers",
+          "title": "Balance by Profit Center",
+          "type": "treemap",
+          "width": "third",
+          "height": "short",
+          "data": {
+            "labels": [
+              "PC001",
+              "PC002",
+              "PC003",
+              "PC004",
+              "PC005",
+              "PC008",
+              "PC009"
+            ],
+            "datasets": [
+              {
+                "name": "Balance",
+                "values": [
+                  42500000,
+                  28500000,
+                  12900000,
+                  9700000,
+                  19500000,
+                  61750000,
+                  47550000
+                ],
+                "color": [
+                  "#22d3ee",
+                  "#a78bfa",
+                  "#34d399",
+                  "#fbbf24",
+                  "#f87171",
+                  "#60a5fa",
+                  "#fb923c"
+                ]
+              }
+            ]
+          },
+          "insight": "PC008 (Leisure) leads profitability, followed by PC009 (Technology)"
+        },
+        {
+          "id": "balance_trend",
+          "title": "Cumulative Balance Growth",
+          "type": "area",
+          "width": "third",
+          "height": "short",
+          "data": {
+            "labels": [
+              "Week 1",
+              "Week 2",
+              "Week 3",
+              "Week 4",
+              "Week 5",
+              "Week 6",
+              "Week 7",
+              "Week 8"
+            ],
+            "datasets": [
+              {
+                "name": "Running Balance",
+                "values": [
+                  28500000,
+                  40800000,
+                  32600000,
+                  28500000,
+                  12900000,
+                  9700000,
+                  19500000,
+                  14100000
+                ],
+                "color": "#a78bfa"
+              }
+            ]
+          },
+          "insight": "Balance volatility observed mid-period, stabilizing towards current levels"
+        },
+        {
+          "id": "vendor_exposure",
+          "title": "Top Vendor Transactions",
+          "type": "stacked_bar",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "VEND-LK01",
+              "VEND-LK02",
+              "VEND-LK10",
+              "VEND-SG05",
+              "VEND-LK15"
+            ],
+            "datasets": [
+              {
+                "name": "COGS",
+                "values": [
+                  16100000,
+                  8900000,
+                  0,
+                  0,
+                  0
+                ],
+                "color": "#fbbf24"
+              },
+              {
+                "name": "OpEx",
+                "values": [
+                  0,
+                  0,
+                  3200000,
+                  5400000,
+                  2800000
+                ],
+                "color": "#f87171"
+              }
+            ]
+          },
+          "insight": "VEND-LK01 and VEND-LK02 are key material suppliers, while others focus on operations"
+        },
+        {
+          "id": "revenue_performance",
+          "title": "Revenue Performance Gauge",
+          "type": "gauge",
+          "width": "half",
+          "height": "normal",
+          "data": {
+            "labels": [
+              "Current",
+              "Target"
+            ],
+            "datasets": [
+              {
+                "name": "Revenue Achievement",
+                "values": [
+                  87,
+                  100
+                ],
+                "color": "#34d399"
+              }
+            ]
+          },
+          "insight": "Revenue at 87% of quarterly target, strong position for Q3 completion"
+        }
+      ],
+      "summary": "The Sri Lankan export company demonstrates robust financial performance in Q3 2024, with total revenue of LKR 259.8M driven primarily by tea exports (60.2% share). The company maintains healthy profitability with a net balance of LKR 111.95M, while managing COGS at LKR 72.1M and operational expenses at LKR 96.2M. Key growth drivers include diversified revenue streams across tea, rubber, spices, and hotel operations, with strong month-over-month growth trajectory. The leisure division (PC008) shows exceptional profitability, while human resources represents the largest operational cost center requiring optimization focus. Overall financial health remains strong with controlled expense growth and expanding profit margins.",
+      "agent": "dashboard_builder",
+      "upload_id": "1cd306a7"
+    },
+    "_id": 3,
+    "_created_at": "2026-03-15T16:25:57.730961"
+  }
+]

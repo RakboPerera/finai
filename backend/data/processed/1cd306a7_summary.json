@@ -1,0 +1,102 @@
+{
+  "filename": "SAP_GL_JKH_Q3_2024.csv",
+  "sheets": {
+    "Sheet1": {
+      "rows": 40,
+      "columns": [
+        "Posting_Date",
+        "Document_No",
+        "GL_Account",
+        "GL_Description",
+        "Cost_Center",
+        "Cost_Center_Name",
+        "Profit_Center",
+        "Debit_LKR",
+        "Credit_LKR",
+        "Balance_LKR",
+        "Vendor_Customer",
+        "Transaction_Type",
+        "Reference",
+        "Fiscal_Year",
+        "Period"
+      ],
+      "dtypes": {
+        "Posting_Date": "str",
+        "Document_No": "int64",
+        "GL_Account": "int64",
+        "GL_Description": "str",
+        "Cost_Center": "str",
+        "Cost_Center_Name": "str",
+        "Profit_Center": "str",
+        "Debit_LKR": "str",
+        "Credit_LKR": "str",
+        "Balance_LKR": "int64",
+        "Vendor_Customer": "str",
+        "Transaction_Type": "str",
+        "Reference": "str",
+        "Fiscal_Year": "int64",
+        "Period": "int64"
+      },
+      "numeric_columns": [
+        "Document_No",
+        "GL_Account",
+        "Balance_LKR",
+        "Fiscal_Year",
+        "Period"
+      ],
+      "date_columns": [],
+      "numeric_stats": {
+        "Document_No": {
+          "count": 40.0,
+          "mean": 5000020.5,
+          "std": 11.69045194450012,
+          "min": 5000001.0,
+          "25%": 5000010.75,
+          "50%": 5000020.5,
+          "75%": 5000030.25,
+          "max": 5000040.0
+        },
+        "GL_Account": {
+          "count": 40.0,
+          "mean": 543310.0,
+          "std": 117199.18569770495,
+          "min": 400000.0,
+          "25%": 400275.0,
+          "50%": 555100.0,
+          "75%": 642500.0,
+          "max": 720000.0
+        },
+        "Balance_LKR": {
+          "count": 40.0,
+          "mean": 63562500.0,
+          "std": 29716409.06887503,
+          "min": 9700000.0,
+          "25%": 40762500.0,
+          "50%": 62650000.0,
+          "75%": 89637500.0,
+          "max": 111950000.0
+        },
+        "Fiscal_Year": {
+          "count": 40.0,
+          "mean": 2024.0,
+          "std": 0.0,
+          "min": 2024.0,
+          "25%": 2024.0,
+          "50%": 2024.0,
+          "75%": 2024.0,
+          "max": 2024.0
+        },
+        "Period": {
+          "count": 40.0,
+          "mean": 8.1,
+          "std": 0.8412444993533733,
+          "min": 7.0,
+          "25%": 7.0,
+          "50%": 8.0,
+          "75%": 9.0,
+          "max": 9.0
+        }
+      }
+    }
+  }
+}
