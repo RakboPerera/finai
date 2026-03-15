@@ -14,13 +14,7 @@ class BaseAgent:
         import httpcore
         httpcore._sync.connection.SSL_CONTEXT = None
         import httpx
-        def __init__(self):
-        import httpcore
-        httpcore._sync.connection.SSL_CONTEXT = None
-        import httpx
-        from config import ANTHROPIC_API_KEY
         self.client = Anthropic(api_key=ANTHROPIC_API_KEY, http_client=httpx.Client(verify=False))
-        self.client = Anthropic(api_key=key, http_client=httpx.Client(verify=False))
 
     async def run(self, upload_id: str, context: dict = None) -> dict:
         raise NotImplementedError
@@ -61,14 +55,12 @@ class BaseAgent:
                 pass
         if not records:
             return "No parseable records found."
-        # Return a sample with column info
         import pandas as pd
         sample_df = pd.DataFrame(records[:50])
         context = f"Total records: {len(records)}\n"
         context += f"Columns: {list(sample_df.columns)}\n"
         context += f"Data types:\n{sample_df.dtypes.to_string()}\n\n"
         context += f"Sample data (first 20 rows):\n{sample_df.head(20).to_string()}\n"
-        # Add basic stats for numeric columns
         numeric = sample_df.select_dtypes(include=["number"])
         if len(numeric.columns) > 0:
             context += f"\nNumeric statistics:\n{numeric.describe().to_string()}"
